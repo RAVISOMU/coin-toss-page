@@ -1,0 +1,103 @@
+.coin-toss-app-container {
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-card {
+  background-color: #ffffff;
+  width: 90%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .coin-toss-card {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .coin-toss-card {
+    height: 70%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .coin-toss-card {
+    height: 70%;
+    width: 40%;
+  }
+}
+
+.coin-toss-heading {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 26px;
+}
+
+.toss-image {
+  height: 120px;
+  width: 120px;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 16px;
+}
+
+.toss-coin-button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 14px;
+}
+
+.quuantity {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-heading {
+    font-size: 42px;
+  }
+
+  .description {
+    font-size: 26px;
+  }
+
+  .toss-image {
+    height: 220px;
+    width: 220px;
+  }
+
+  .quantity-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quantity {
+    font-size: 24px;
+    margin-right: 36px;
+  }
+}
